@@ -1,0 +1,19 @@
+$('#iddelele').hide();
+$('#namedelele').hide();
+$('#idBT')[0].onclick=function(){
+	$('#menu').hide();
+	$('#iddelele').show();
+}
+$('#nameBT')[0].onclick=function(){
+	$('#menu').hide();
+	$('#namedelele').show();
+}
+$('#backBT')[0].onclick=function(){
+	window.location.href="welcome.jsp"
+}
+$('#back1')[0].onclick=function(){
+	window.location.href="deletebook.jsp"
+}
+$('#back2')[0].onclick=function(){
+	window.location.href="deletebook.jsp"
+}
